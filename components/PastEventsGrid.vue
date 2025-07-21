@@ -56,7 +56,7 @@ export default {
 </script>
 
 <style scoped>
-.elvis {
+.archeologist-marshie {
   width: 125px;
   height: 125px;
   transform: rotate(4.426deg);
@@ -126,7 +126,7 @@ export default {
     font-size: 2.5vw;
   }
 
-  .elvis {
+  .archeologist-marshie {
     width: 75px;
     height: 75px;
   }
