@@ -4,7 +4,7 @@
     <div class="header-content">
       <h1 class="header-title">We’re out exploring, but we’ll see you in April 2026!</h1>
       <div class="socials">
-        <p>In the meantime, follow our socials for updates and indicate your interest in Bitcamp 2026 here.</p>
+        <p>In the meantime, follow our socials for updates and indicate your interest in Bitcamp 2026 here!</p>
         <SocialIcons />
       </div>
       <div class="header-body">
