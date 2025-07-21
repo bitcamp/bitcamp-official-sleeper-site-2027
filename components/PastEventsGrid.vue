@@ -22,7 +22,7 @@
               Copyright &copy; 2019 - 2025 Bitcamp. All Rights Reserved.
             </div>
           </div>
-          <img class="elvis" src="../assets/img/images/elvis.svg" alt="elvis">
+          <img class="archeologist-marshie" src="../assets/img/images/archeologist_marshie.svg" alt="archeologist-marshie">
         </div>
       </div>
     </div>

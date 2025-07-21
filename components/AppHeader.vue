@@ -1,6 +1,6 @@
 <template>
   <div class="header-container">
-    <img src="../assets/img/images/bitcamp-lightup.svg" width="300" alt="Bitcamp" />
+    <img src="../assets/img/images/bitcamp-dinos.svg" width="450" alt="Bitcamp" />
     <div class="header-content">
       <h1 class="header-title">We’re out exploring, but we’ll see you in April 2026!</h1>
       <div class="socials">

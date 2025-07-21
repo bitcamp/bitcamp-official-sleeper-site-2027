@@ -7,12 +7,12 @@ export default {
     "module": true,
     "resourceType": "script"
   },
-  "/Users/saloni/Desktop/Everything/School/College/Clubs/Bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
     "isEntry": true,
-    "file": "/Users/saloni/Desktop/Everything/School/College/Clubs/Bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nuxt/dist/app/entry.js"
   }
 }
