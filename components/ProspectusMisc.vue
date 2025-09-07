@@ -5,6 +5,9 @@
         </a>
         <span v-if="bolded" style="color:var(--color-dark-text)"><b>{{ perk }}</b></span>
         <span v-else style="color: var(--color-dark-text);">{{ perk }}</span>
+        <div v-if="note" style="margin-top: 4px; font-size: 0.85em; color: var(--color-dark-text);">
+            {{ note }}
+        </div>
     </div>
 
     <div class="Rtable-cell Rtable-cell-misc" :class="'Rtable-misc-cell-' + type"
@@ -16,6 +19,8 @@
     <div class="Rtable-cell Rtable-cell-blank"></div>
     <div class="Rtable-cell Rtable-cell-blank"></div>
     <div class="Rtable-cell Rtable-cell-blank"></div>
+    
+    
 </template>
 
 <script>
@@ -41,6 +46,11 @@ export default {
         description: {
             type: String,
             required: true,
+        },
+        note: { 
+            type: String,
+            required: false,
+            default: ''
         },
     },
 };
