@@ -8,38 +8,36 @@
                         <span>Home</span>
                     </a>
                     <h1>
-                        <strong class="SupportTitle"> help support </strong> Bitcamp 2025!
+                        <strong class="SupportTitle"> help support </strong> Bitcamp 2026!
                     </h1>
                     <br>
                     <p>Hello Potential Sponsor!</p>
                     <p>
                         Bitcamp, hosted annually at the University of Maryland, is one of the largest
                         collegiate hackathons on the East Coast, bringing together thousands of students
-                        each year. This year kicks off a new era and marks our <b>11th anniversary</b>! Over the past
+                        each year. This year kicks off a new era and marks our <b>12 year anniversary</b>! Over the past
                         decade, Bitcamp has become a thriving hub of creativity and technical exploration, uniting over
-                        <b>10,000</b> passionate hackers who have developed more than <b>1,350</b> innovative
+                        <b>11,000</b> passionate hackers who have developed more than <b>1,500</b> innovative
                         projects. As we look back on a decade of breakthroughs, we're excited to continue pushing
                         boundaries and fostering the next generation of tech leaders. We can't wait to host over
-                        <b>1,000</b> attendees at Bitcamp 2025 <b> in person </b> at the University of Maryland
-                        from <b>April 11th to 13th</b>.
+                        <b>1,000</b> attendees at Bitcamp 2026 <b> in person </b> at the University of Maryland
+                        from <b>April 10th to 12th</b>.
                     </p>
                     <p>
                         Bitcamp is a melting pot of creativity; a great place to connect with a diverse group
                         of the nation's brightest innovators. Our hackers are passionate about using their skills to
-                        collaboratively solve multi-disciplinary problems. Last year, we introduced an <b>App
-                            Development</b> track to introduce
-                        hackers to the software development life cycle and a new <b>Cybersecurity</b> track to
-                        facilitate discussions of web vulnerabilities. Our popular <b> Machine Learning </b> and <b>
-                            Quantum </b> tracks will be returning this year as well.
-                        All
-                        hackers are also challenged to learn new skills including project management and user-friendly
-                        design. </p>
+                        collaboratively solve multi-disciplinary problems. This year, we are excited to continue 
+                        offering our popular tracks in <b> Machine Learning, Quantum, App Development, and Cybersecurity,</b> giving 
+                        hackers a chance to deepen their knowledge and tackle challenges in these growing fields.
+                        All hackers are also challenged to learn new skills including project management and user-friendly
+                        design. 
+                    </p>
                     <p>
-                        During Bitcamp 2024, we made some unforgettable memories with over 2,000
+                        During Bitcamp 2025, we made some unforgettable memories with over 2,000
                         hackers who registered to attend the event and saw some incredible talent in the
-                        158 projects that were submitted. Check out the amazing array of hacks at:
+                        231 projects that were submitted. Check out the innovative hacks at:
                         <b><a
-                                href="https://bitcamp2024.devpost.com/project-gallery">https://bitcamp2024.devpost.com/project-gallery</a></b>!
+                                href="https://bitcamp2025.devpost.com/project-gallery">https://bitcamp2025.devpost.com/project-gallery</a></b>!
                     </p>
                     <p>
                         Bitcamp offers a prime opportunity for recruitment and tech mentorship. By sponsoring Bitcamp,
@@ -51,7 +49,7 @@
                         We invite you to review the various tiers of sponsorship below. More detailed
                         information regarding each individual perk can be accessed on our website by
                         visiting <a href="https://bit.camp/sponsor">bit.camp/sponsor</a>. If you're interested in
-                        becoming an official sponsor for Bitcamp 2025, our biggest event yet, we'd love to chat! You can
+                        becoming an official sponsor for Bitcamp 2026, our biggest event yet, we'd love to chat! You can
                         reach us at <b><a href="mailto:sponsorship@bit.camp">sponsorship@bit.camp</a></b>.
                     </p>
                     <p>
@@ -113,11 +111,11 @@
                             'Peta',
                         ]" :args="[
                             '$2,000',
-                            '$3,000',
-                            '$5,000',
-                            '$7,000',
+                            '$3,500',
+                            '$5,500',
+                            '$7,500',
                             '$10,000',
-                            '$16,000',
+                            '$15,000',
                         ]" :header="'first-row Rtable-category-cell-full'" />
                         <ProspectusEmptyRow :categoryName="'General'" />
                         <ProspectusRow :categoryName="'Mentors at Event'" :tierNames="[
@@ -266,7 +264,7 @@
                         ]" :args="[
                             '',
                             '',
-                            '',
+                            'check-w',
                             'check-w',
                             'check-w',
                             'check-w',
@@ -279,7 +277,7 @@
                             'Giga',
                             'Tera',
                             'Peta',
-                        ]" :args="['', '', '', '', 'check-w', 'check-w']"
+                        ]" :args="['', '', '', 'check-w', 'check-w', 'check-w']"
                             :description="'We’ve started a new tradition of a hype event before Bitcamp takes place, where hackers can come together, meet each other, and get a glimpse of what Bitcamp is and for the first time ever, we will be including a sponsorship fair as part of the event! This is a unique opportunity for you to be one of the first sponsors to interact with prospective hackers even before the hackathon takes place and gives you a chance to have a personalized interaction with hackers and begin recruiting early!'" />
                         <ProspectusRow :categoryName="'Recruitment Event Shoutout'" :subText="'(on social media)'"
                             :tierNames="[
@@ -398,8 +396,12 @@
 
                         <ProspectusMisc :perk="'Additional Add-Ons'" :type="'head'" :bolded="true"
                             :description="'If you’re already sponsoring a tier that allows you to provide a prize, then you have the opportunity to sponsor an additional prize through this perk. Sponsoring prizes is an excellent chance to interact with hackers and attract talent with the specific skillset or interests that you’re looking for and sponsoring an additional prize is a great way to expand your search.'" />
-                        <ProspectusMisc :perk="'Sponsoring Additional Prizes'" :price="'$1,000'" :type="'bottom'"
+                        <ProspectusMisc :perk="'Sponsoring Additional Prizes'" :price="'$1,000'" :type="'middle'"
                             :bolded="false"
+                            :description="'This add-on is open to all sponsors and is the perfect chance for your company to get exposure among past and prospective hackers. Hop on the Bitcamp Podcast, share what you love about your company, and get students interested!'" />
+                        <ProspectusMisc :perk="'Sponsoring Side Event (30 mins)'" :price="'$1,500'" :type="'bottom'"
+                            :bolded="false"
+                            :note="'(For Mega and Giga tiers only)'"
                             :description="'This add-on is open to all sponsors and is the perfect chance for your company to get exposure among past and prospective hackers. Hop on the Bitcamp Podcast, share what you love about your company, and get students interested!'" />
                     </div>
                     <hr class="divider" />
