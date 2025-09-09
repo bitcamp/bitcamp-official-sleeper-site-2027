@@ -173,7 +173,7 @@
               :subText="'(Limited Slots)'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '', '30 min', '60 min']"
-              :description="'Mega and Giga-tier sponsors are eligible to opt in for a 30-minute side event for $1,500. A tech talk/workshop is an excellent way for sponsors to interact with our hackers and can be on any topic of your choice.'"
+              :description="'A workshop/tech talk is an excellent way for sponsors to interact with our hackers and can be on any topic of your choice. Past workshops have covered a range of topics from cybersecurity to web development to machine learning. These will be done in person with the option to make it as interactive as desired. If companies need help choosing a topic for their workshop or event, they can connect with our Workshops team once they have committed to a tier.'"
             />
             <ProspectusRow
               :categoryName="'Branded Mini Game'"
@@ -225,7 +225,7 @@
               :categoryName="'Access to Resumes'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', 'check-w', 'check-w', 'check-w', 'check-w']"
-              :description="'With this perk, we provide a database of all of our registrants’ resumes to our sponsors following the event (before if we are able to do so logistically). This will [ideally be in a Google Drive format but can be changed due to certain company restrictions.'"
+              :description="'With this perk, we provide a database of all of our registrants’ resumes to our sponsors following the event (before if we are able to do so logistically). This will ideally be in a Google Drive format but can be changed due to certain company restrictions.'"
             />
             <ProspectusRow
               :categoryName="'Bootcamp Sponsorship Fair'"
@@ -272,7 +272,7 @@
                 'check-w',
                 'check-w',
               ]"
-              :description="'Sponsors are able to distribute marketing materials to our hackers in their virtual and in-person booths. This can include any type of virtual swag (ex: promo codes), informational materials (ex: pamphlets, flyers, or videos), or physical swag (ex: T-shirts, masks).'"
+              :description="'Sponsors are able to distribute marketing materials to our hackers at their booths. This can include any type of virtual swag (ex: promo codes), informational materials (ex: pamphlets, flyers, or videos), or physical swag (ex: T-shirts, keychains).'"
             />
             <ProspectusRow
               :categoryName="'Social Media Shoutout'"
@@ -292,7 +292,7 @@
               :categoryName="'&quot;Cohosted By&quot;'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '', '', 'check-w']"
-              :description="'Tera-level sponsors will be given special recognition in our marketing materials as a co-host. '"
+              :description="'Peta-level sponsors will be given special recognition in our marketing materials as a co-host.'"
             />
 
             <ProspectusEmptyRow :categoryName="'Restricted Add-Ons'" />
@@ -341,12 +341,12 @@
               :description="'This add-on is open to all sponsors and is the perfect chance for your company to get exposure among past and prospective hackers. Hop on the Bitcamp Podcast, share what you love about your company, and get students interested!'"
             />
             <ProspectusMisc
-              :perk="'Sponsoring Side Event (30 min)'"
+              :perk="'Sponsored Side Event (30 min)'"
               :price="'$1,500'"
               :type="'bottom'"
               :bolded="false"
               :note="'(For Mega and Giga tiers only)'"
-              :description="'This add-on is open to Mega and Giga sponsors and is the perfect chance for your company to get exposure among past and prospective hackers.'"
+              :description="'Mega and Giga-tier sponsors are eligible to opt in for a 30-minute side event for $1,500. A tech talk/workshop is an excellent way for sponsors to interact with our hackers and can be on any topic of your choice.'"
             />
           </div>
           <hr class="divider" />
