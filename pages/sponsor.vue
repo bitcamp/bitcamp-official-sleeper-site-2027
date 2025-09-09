@@ -163,17 +163,17 @@
               :description="'A panel discussion is another great way for sponsors to interact with our hackers. This includes a moderated discussion on a topic and questions curated by our team (which will be provided to company representatives beforehand), as well as an open Q&A session at the end for hackers to ask our panelists. We recommend ideally 1 person to be on the panel from each eligible company but will allow max 2 people.'"
             />
             <ProspectusRow
-              :categoryName="'Closing Ceremony Talk'"
+              :categoryName="'Closing Ceremony Talks'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '5 min', '8 min', '12 min']"
-              :description="'This is a great opportunity for a company to give an inspiring and motivating talk to our hackers. This could be about an experience, something related to our hackathon’s theme, or anything realistically.'"
+              :description="'This is a great opportunity for a company to give an inspiring and motivating talk to our hackers. This could be about an experience, something related to our hackathon’s theme, a motivational company message, or anything realistically.'"
             />
             <ProspectusRow
               :categoryName="'Sponsored Side Event'"
               :subText="'(Limited Slots)'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '', '30 min', '60 min']"
-              :description="'A tech talk/workshop is an excellent way for sponsors to interact with our hackers and can be on any topic of your choice. Past workshops have covered a range of topics from cybersecurity to web development to machine learning. These will be done in person with the option to make it as interactive as desired. If companies need help choosing a topic for their workshop or event, they can Contact with our Workshops team once they have committed to a tier.'"
+              :description="'Mega and Giga-tier sponsors are eligible to opt in for a 30-minute side event for $1,500. A tech talk/workshop is an excellent way for sponsors to interact with our hackers and can be on any topic of your choice.'"
             />
             <ProspectusRow
               :categoryName="'Branded Mini Game'"
@@ -185,7 +185,7 @@
               :categoryName="'Provide Additional Prize'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '', '', 'check-w']"
-              :description="'Providing prizes is a powerful perk that can help companies reach out to their target hacker population, be it those interested in a specific field or those that have a specific skillset. This year, our Tera-level sponsor can provide 2 prizes to ensure they get as much outreach as possible and are successful in identifying talent at the hackathon.'"
+              :description="'Providing prizes is a powerful perk that can help companies reach out to their target hacker population, be it those interested in a specific field or those with a specific skillset. This year, our Peta-level sponsor can provide 2 prizes to ensure they get as much outreach as possible and are successful in identifying talent at the hackathon.'"
             />
             <ProspectusEmptyRow :categoryName="'Recruiting'" />
             <ProspectusRow
@@ -202,7 +202,7 @@
               :description="'Sponsors have their own in-person booth in our event location. The booth is your “home base” for the event, from which you can post or distribute marketing materials, interact with hackers, and make your presence felt at Bitcamp! '"
             />
             <ProspectusRow
-              :categoryName="'Access to Hacker Contact Info'"
+              :categoryName="'Access to Hacker Contact Information'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="[
                 '',
@@ -212,14 +212,14 @@
                 'check-w',
                 'check-w',
               ]"
-              :description="'With this perk, sponsors will be provided with contact information that hackers provide to directly message with/reach out to after Bitcamp has occurred. This is information that we will provide to sponsors after the event.'"
+              :description="'With this perk, hacker-provided contact information will be shared with sponsors to directly message/reach out to hackers after Bitcamp has occurred. This will be provided to sponsors after the event.'"
             />
             <ProspectusRow
               :categoryName="'Recruiters Present'"
               :subText="'(Active Recruitment)'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', 'check-w', 'check-w', 'check-w', 'check-w']"
-              :description="'You are welcome to have recruiters and recruiting materials at your booth at Bitcamp, where you will be able to interact with all of our hackers. You may bring as many representatives as you’d like (we recommend 3-4). There will be a “Sponsorship Fair” during which hackers will be encouraged to visit your open booths.'"
+              :description="'You are welcome to have recruiters and recruiting materials at your booth at Bitcamp, where you will be able to interact with all of our hackers. You may bring as many representatives as you’d like (we recommend 3-4). Hackers will be encouraged to visit your open booths throughout the “Sponsorship Fair” occurring at Bitcamp.'"
             />
             <ProspectusRow
               :categoryName="'Access to Resumes'"
@@ -231,21 +231,21 @@
               :categoryName="'Bootcamp Sponsorship Fair'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', 'check-w', 'check-w', 'check-w']"
-              :description="'We’ve started a new tradition of a hype event before Bitcamp takes place, where hackers can come together, meet each other, and get a glimpse of what Bitcamp is and for the first time ever, we will be including a sponsorship fair as part of the event! This is a unique opportunity for you to be one of the first sponsors to interact with prospective hackers even before the hackathon takes place and gives you a chance to have a personalized interaction with hackers and begin recruiting early!'"
+              :description="'Over the years, we have developed a tradition of a hype event 2-3 weeks before Bitcamp takes place, where hackers can come together, meet each other, and get a glimpse of what Bitcamp is. We will be including a sponsorship fair as part of the event! This is a unique opportunity for you to be one of the first sponsors to interact with prospective hackers even before the hackathon takes place. This perk gives you a chance to have a personalized interaction with hackers and begin recruiting early!'"
             />
             <ProspectusRow
-              :categoryName="'Recruitment Event Shoutout'"
+              :categoryName="'Recruitment Event Shoutout on Social Media'"
               :subText="'(On Social Media)'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '', '1 event', '2 events']"
-              :description="'Any recruitment event or information session you hope to advertise from the moment you choose to sponsor Bitcamp to when the event takes place, we will advertise on our Bitcamp social media account. Based on the tier at which you sponsor, we will advertise up to 2 recruitment events (Tera) through LinkedIn and Email to all registered hackers!'"
+              :description="'Any recruitment event or information session you hope to advertise from the moment you choose to sponsor Bitcamp to when the event takes place will be advertised on our Bitcamp social media account. Based on the tier at which you sponsor, we will advertise up to 2 recruitment events (Peta) through LinkedIn and Email to all registered hackers!'"
             />
 
             <ProspectusBottomRow
               :categoryName="'Pre-Event Email to All Hackers'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
               :args="['', '', '', '', '', 'check-w']"
-              :description="'Around 2-3 days before the event itself, we will allow sponsors with this perk to email all of our registrants up to that point to encourage participants to keep an eye out for your company’s booth and activities during the event. The message would be sent by the Bitcamp Team on behalf of your organization/company, but we will leave the content of the email up to you! '"
+              :description="'Roughly 2-3 days before the event itself, we will allow sponsors with this perk to email all of our registrants up to that point with a message of your choice. Take this opportunity to encourage participants to keep an eye out for your company’s booth and activities during the event! The message would be sent by the Bitcamp Team on behalf of your organization/company, but we will leave the content of the email up to you!'"
             />
             <ProspectusEmptyRow :categoryName="'Marketing'" />
             <ProspectusRow
@@ -307,7 +307,7 @@
                 '2 min check-w',
                 '4 min check-w',
               ]"
-              :description="'This add-on is open to Giga and Tera sponsors, who will be given special recognition in our marketing materials as a co-host. '"
+              :description="'Giga-level sponsors are eligible to opt in for a 2-minute custom marketing video for $350. This perk is included for the Tera and Peta-level sponsors. It is the perfect chance for your company to get exposure among past and prospective hackers! Bitcamp social media accounts will promote your company using the custom marketing video, and you will have access to the video for your own use.'"
             />
 
             <div class="Rtable-cell Rtable-cell-blank"></div>
@@ -898,6 +898,7 @@ h2 {
   @media screen and (max-width: 1000px) {
     .Rtable-grid {
       overflow-x: auto;
+      overflow-y: hidden;
     }
   }
 
