@@ -909,7 +909,7 @@ h2 {
       
     }
     .tooltips::after {
-      max-height: 20vh; 
+      max-height: 13vh; 
       overflow-y: auto;
       box-sizing: border-box;
     }
