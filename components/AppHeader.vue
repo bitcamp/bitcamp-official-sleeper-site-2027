@@ -1,36 +1,62 @@
 <template>
   <div class="header-container">
-    <img src="../assets/img/images/bitcamp-dinos.svg" width="300" alt="Bitcamp" />
+    <img
+      src="../assets/img/images/bitcamp-dinos.svg"
+      width="300"
+      alt="Bitcamp"
+    />
     <div class="header-content">
-      <h1 class="header-title">We’re out exploring, but we’ll see you in April 2026!</h1>
+      <h1 class="header-title">
+        We’re out exploring, but we’ll see you in April 2026!
+      </h1>
       <div class="socials">
-        <p>In the meantime, follow our socials for updates and indicate your interest in Bitcamp 2026 here!</p>
+        <p>
+          In the meantime, follow our socials for updates and indicate your
+          interest in Bitcamp 2026 here!
+        </p>
         <SocialIcons />
       </div>
       <div class="header-body">
-        <LinkButton text="I'm Interested!" link="https://forms.gle/SmhTejVeN65okvZL6" />
+        <LinkButton
+          text="I'm Interested!"
+          link="https://forms.gle/SmhTejVeN65okvZL6"
+        />
+        <LinkButton text="Sponsor Us!" link="https://bit.camp/sponsor" />
       </div>
-      <a id="mlh-trust-badge" class="mlh-display"
+      <a
+        id="mlh-trust-badge"
+        class="mlh-display"
         href="https://mlh.io/na?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2026-season&utm_content=white"
-        target="_blank"><img
+        target="_blank"
+        ><img
           src="https://s3.amazonaws.com/logged-assets/trust-badge/2026/mlh-trust-badge-2026-white.svg"
-          alt="Major League Hacking 2026 Hackathon Season" style="width:100%">
+          alt="Major League Hacking 2026 Hackathon Season"
+          style="width: 100%"
+        />
       </a>
     </div>
 
     <div class="graphics">
-      <img class="trees" src="../assets/img/images/trees.svg" alt="trees">
-      <img class="trees-small" src="../assets/img/images/trees-small.svg" alt="trees">
-      <img class="campfire" src="../assets/img/images/campfire.svg" alt="campfire">
+      <img class="trees" src="../assets/img/images/trees.svg" alt="trees" />
+      <img
+        class="trees-small"
+        src="../assets/img/images/trees-small.svg"
+        alt="trees"
+      />
+      <img
+        class="campfire"
+        src="../assets/img/images/campfire.svg"
+        alt="campfire"
+      />
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import LinkButton from '~/components/LinkButton.vue';
-import SocialIcons from '~/components/SocialIcons.vue';
+import LinkButton from "~/components/LinkButton.vue";
+import SocialIcons from "~/components/SocialIcons.vue";
 export default {
-  name: 'AppHeader',
+  name: "AppHeader",
   components: { LinkButton, SocialIcons },
 };
 </script>
@@ -46,7 +72,11 @@ export default {
   padding-top: 75px;
   gap: 1.8vw;
   text-align: center;
-  background: linear-gradient(180deg, hsla(227, 42%, 13%, 1), hsla(234, 27%, 31%, 1));
+  background: linear-gradient(
+    180deg,
+    hsla(227, 42%, 13%, 1),
+    hsla(234, 27%, 31%, 1)
+  );
 }
 
 .header-content {
@@ -70,6 +100,7 @@ export default {
 .header-body {
   min-width: 45vw;
   width: 85vw;
+  display: flex;
 }
 
 .button-container {
@@ -98,10 +129,6 @@ export default {
   bottom: -5vw;
   left: 0vw;
   z-index: 1;
-
-  @media (max-width: 768) {
-    display: none;
-  }
 }
 
 .trees-small {
@@ -145,7 +172,6 @@ export default {
 
   .header-title {
     width: auto;
-    /* one line */
     line-height: 1.2;
   }
 
@@ -154,6 +180,10 @@ export default {
     line-height: 1.3;
     z-index: 5;
     white-space: normal;
+    display: block;
+  }
+  .tree {
+    display: none;
   }
 }
 

@@ -14,7 +14,7 @@
             <img src="../assets/img/icons/check-white.svg" alt="Checkmark" />
         </p>
         <p v-else>
-            <!-- Only for Custom Sponsor Marketing Video -->
+            <!-- Only for Sponsored Side Event -->
             <span v-if="typeof arg === 'string' && arg.includes('check')">
                 {{ arg.split('check')[0] }}
                 <br>
