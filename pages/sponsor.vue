@@ -906,6 +906,12 @@ h2 {
       top: 0;
       right: 0;
       transform: translateY(-50%) translateX(35px);
+      
+    }
+    .tooltips::after {
+      max-height: 20vh; 
+      overflow-y: auto;
+      box-sizing: border-box;
     }
   }
 }

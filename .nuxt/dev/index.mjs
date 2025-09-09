@@ -1,40 +1,40 @@
 import process from 'node:process';globalThis._importMeta_={url:import.meta.url,env:process.env};import { tmpdir } from 'node:os';
+import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, getRequestURL, getResponseHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/h3/dist/index.mjs';
 import { Server } from 'node:http';
 import { resolve, dirname, join } from 'node:path';
 import nodeCrypto from 'node:crypto';
 import { parentPort, threadId } from 'node:worker_threads';
-import { defineEventHandler, handleCacheHeaders, splitCookiesString, createEvent, fetchWithEvent, isEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, getRequestHeader, setResponseHeaders, setResponseStatus, send, getRequestHeaders, setResponseHeader, getRequestURL, getResponseHeader, getQuery as getQuery$1, readBody, createApp, createRouter as createRouter$1, toNodeListener, lazyEventHandler, getResponseStatus, createError, getRouterParam, getResponseStatusText } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/h3/dist/index.mjs';
-import { escapeHtml } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/@vue/shared/dist/shared.cjs.js';
-import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/ufo/dist/index.mjs';
-import { renderToString } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/vue/server-renderer/index.mjs';
-import { klona } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/klona/dist/index.mjs';
-import defu, { defuFn } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/defu/dist/defu.mjs';
-import destr, { destr as destr$1 } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/destr/dist/index.mjs';
-import { snakeCase } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/scule/dist/index.mjs';
-import { createHead as createHead$1, propsToString, renderSSRHead } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/unhead/dist/server.mjs';
-import { stringify, uneval } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/devalue/index.js';
-import { isVNode, toValue, isRef } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/vue/index.mjs';
-import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/unhead/dist/plugins.mjs';
-import { createHooks } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/hookable/dist/index.mjs';
-import { createFetch, Headers as Headers$1 } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/ofetch/dist/node.mjs';
-import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/node-mock-http/dist/index.mjs';
-import { prefixStorage } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/nitropack/node_modules/unstorage/dist/index.mjs';
-import { createStorage } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/nuxt/node_modules/unstorage/dist/index.mjs';
-import unstorage_47drivers_47fs from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/nuxt/node_modules/unstorage/drivers/fs.mjs';
-import { digest } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/ohash/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/radix3/dist/index.mjs';
+import { escapeHtml } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/@vue/shared/dist/shared.cjs.js';
+import { createRenderer, getRequestDependencies, getPreloadLinks, getPrefetchLinks } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import { parseURL, withoutBase, joinURL, getQuery, withQuery, withTrailingSlash, joinRelativeURL } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/ufo/dist/index.mjs';
+import { renderToString } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/vue/server-renderer/index.mjs';
+import destr, { destr as destr$1 } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/destr/dist/index.mjs';
+import { createHooks } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/hookable/dist/index.mjs';
+import { createFetch, Headers as Headers$1 } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/ofetch/dist/node.mjs';
+import { fetchNodeRequestHandler, callNodeRequestHandler } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/node-mock-http/dist/index.mjs';
+import { prefixStorage } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nitropack/node_modules/unstorage/dist/index.mjs';
+import { createStorage } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nuxt/node_modules/unstorage/dist/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nuxt/node_modules/unstorage/drivers/fs.mjs';
+import { digest } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/ohash/dist/index.mjs';
+import { klona } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/klona/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/defu/dist/defu.mjs';
+import { snakeCase } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/scule/dist/index.mjs';
+import { getContext } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/unctx/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/radix3/dist/index.mjs';
 import { readFile } from 'node:fs/promises';
-import consola, { consola as consola$1 } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/consola/dist/index.mjs';
-import { ErrorParser } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/youch-core/build/index.js';
-import { Youch } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/nitropack/node_modules/youch/build/index.js';
-import { SourceMapConsumer } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/source-map/source-map.js';
+import consola, { consola as consola$1 } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/consola/dist/index.mjs';
+import { ErrorParser } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/youch-core/build/index.js';
+import { Youch } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/nitropack/node_modules/youch/build/index.js';
+import { SourceMapConsumer } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/source-map/source-map.js';
 import { AsyncLocalStorage } from 'node:async_hooks';
-import { getContext } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/unctx/dist/index.mjs';
-import { captureRawStackTrace, parseRawStackTrace } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/errx/dist/index.js';
-import { walkResolver } from 'file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/node_modules/unhead/dist/utils.mjs';
+import { stringify, uneval } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/devalue/index.js';
+import { captureRawStackTrace, parseRawStackTrace } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/errx/dist/index.js';
+import { isVNode, toValue, isRef } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/vue/index.mjs';
+import { createHead as createHead$1, propsToString, renderSSRHead } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/unhead/dist/server.mjs';
+import { DeprecationsPlugin, PromisesPlugin, TemplateParamsPlugin, AliasSortingPlugin } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/unhead/dist/plugins.mjs';
+import { walkResolver } from 'file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/node_modules/unhead/dist/utils.mjs';
 
-const serverAssets = [{"baseName":"server","dir":"C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/server/assets"}];
 
 const assets = createStorage();
 
@@ -46,11 +46,11 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026","watchOptions":{"ignored":[null]}}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026/server","watchOptions":{"ignored":[null]}}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026/.nuxt"}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026/.nuxt/cache"}));
-storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026/.data/kv"}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026","watchOptions":{"ignored":[null]}}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/server","watchOptions":{"ignored":[null]}}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/.nuxt"}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/.nuxt/cache"}));
+storage.mount('data', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/.data/kv"}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -691,6 +691,11 @@ new Proxy(/* @__PURE__ */ Object.create(null), {
   }
 });
 
+getContext("nitro-app", {
+  asyncContext: false,
+  AsyncLocalStorage: void 0
+});
+
 const config = useRuntimeConfig();
 const _routeRulesMatcher = toRouteMatcher(
   createRouter({ routes: config.nitro.routeRules })
@@ -1006,13 +1011,13 @@ if (!window.__NUXT_DEVTOOLS_TIME_METRIC__) {
 window.__NUXT_DEVTOOLS_TIME_METRIC__.appInit = Date.now()
 `;
 
-const _lnRdwXcoaM6ETjqV_XbUJFqjNYdT_TR3LEiM8w2Rfc = (function(nitro) {
+const _Wh6tZHg4GXzfbdsm2Y7ZT1um0VsEqQXuddmfaEBtDu8 = (function(nitro) {
   nitro.hooks.hook("render:html", (htmlContext) => {
     htmlContext.head.push(`<script>${script}<\/script>`);
   });
 });
 
-const rootDir = "C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper Site/bitcamp-official-sleeper-site-2026";
+const rootDir = "/Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026";
 
 const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
 
@@ -1031,7 +1036,7 @@ const devReducers = {
   URL: (data) => data instanceof URL ? data.toString() : void 0
 };
 const asyncContext = getContext("nuxt-dev", { asyncContext: true, AsyncLocalStorage });
-const _tRZSGrDEru8hVXJiQbb0IjcrGiHNsgYeXlb_7vg6KQ8 = (nitroApp) => {
+const _4vsxTAu0QLN9t1ZHS7_tQurNzRRPWZvU9iB7ZBkn4Q = (nitroApp) => {
   const handler = nitroApp.h3App.handler;
   nitroApp.h3App.handler = (event) => {
     return asyncContext.callAsync({ logs: [], event }, () => handler(event));
@@ -1101,8 +1106,8 @@ function onConsoleLog(callback) {
 }
 
 const plugins = [
-  _lnRdwXcoaM6ETjqV_XbUJFqjNYdT_TR3LEiM8w2Rfc,
-_tRZSGrDEru8hVXJiQbb0IjcrGiHNsgYeXlb_7vg6KQ8
+  _Wh6tZHg4GXzfbdsm2Y7ZT1um0VsEqQXuddmfaEBtDu8,
+_4vsxTAu0QLN9t1ZHS7_tQurNzRRPWZvU9iB7ZBkn4Q
 ];
 
 const VueResolver = (_, value) => {
@@ -1177,7 +1182,7 @@ function publicAssetsURL(...path) {
 const APP_ROOT_OPEN_TAG = `<${appRootTag}${propsToString(appRootAttrs)}>`;
 const APP_ROOT_CLOSE_TAG = `</${appRootTag}>`;
 const getServerEntry = () => Promise.resolve().then(function () { return server$1; }).then((r) => r.default || r);
-const getClientManifest = () => import('file://C:/Users/mohe-/Desktop/Code/Bitcamp/2026/Sleeper%20Site/bitcamp-official-sleeper-site-2026/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('file:///Users/aryagijare/bitcamp/bitcamp-official-sleeper-site-2026/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
@@ -1423,12 +1428,12 @@ async function getIslandContext(event) {
   return ctx;
 }
 
-const _lazy_Z2yCh3 = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_dZ6aI0 = () => Promise.resolve().then(function () { return renderer$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_Z2yCh3, lazy: true, middleware: false, method: undefined },
+  { route: '/__nuxt_error', handler: _lazy_dZ6aI0, lazy: true, middleware: false, method: undefined },
   { route: '/__nuxt_island/**', handler: _SxA8c9, lazy: false, middleware: false, method: undefined },
-  { route: '/**', handler: _lazy_Z2yCh3, lazy: true, middleware: false, method: undefined }
+  { route: '/**', handler: _lazy_dZ6aI0, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
