@@ -330,13 +330,12 @@
             <div class="Rtable-cell Rtable-cell-blank"></div>
             <div class="Rtable-cell Rtable-cell-blank"></div>
             <div class="Rtable-cell Rtable-cell-blank"></div>
-
+              
             <ProspectusMisc
               :perk="'Add-Ons'"
               :price="''"
               :type="'head'"
               :bolded="true"
-              :description="'If you’re already sponsoring a tier that allows you to provide a prize, then you have the opportunity to sponsor an additional prize through this perk. Sponsoring prizes is an excellent chance to interact with hackers and attract talent with the specific skillset or interests that you’re looking for and sponsoring an additional prize is a great way to expand your search.'"
             />
             <ProspectusMisc
               :perk="'Sponsoring Additional Prizes'"

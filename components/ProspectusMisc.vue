@@ -3,13 +3,18 @@
     class="Rtable-cell Rtable-category-cell"
     :class="'Rtable-misc-category-cell-' + type"
   >
-    <a class="tooltips direction" :title="perk" :description="description">
+    <a
+      v-if="perk !== 'Add-Ons'"
+      class="tooltips direction"
+      :title="perk"
+      :description="description"
+    >
       <img
         src="../assets/img/icons/question-mark-black.svg"
         alt="Question Mark"
       />
     </a>
-    <div>
+    <div :style="perk === 'Add-Ons' ? 'margin-left: 1rem': ''">
       <span v-if="bolded" style="color: var(--color-dark-text)"
         ><b>{{ perk }}</b></span
       >
