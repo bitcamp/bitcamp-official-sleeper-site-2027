@@ -21,10 +21,12 @@
           text="I'm Interested!"
           link="https://forms.gle/SmhTejVeN65okvZL6"
         />
-        <LinkButton
+
+        <!-- uncomment when organizer applications open -->
+        <!-- <LinkButton
           text="Become an Organizer!"
           link="https://bit.camp/orgapp"
-        />
+        /> -->
         <LinkButton text="Sponsor Us!" link="https://bit.camp/sponsor" />
       </div>
       <a
