@@ -13,6 +13,7 @@ type HydrationStrategies = {
 type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }>)
 interface _GlobalComponents {
       'AppHeader': typeof import("../components/AppHeader.vue")['default']
+    'BitBot': typeof import("../components/BitBot.vue")['default']
     'EventCard': typeof import("../components/EventCard.vue")['default']
     'LinkButton': typeof import("../components/LinkButton.vue")['default']
     'PastEventsGrid': typeof import("../components/PastEventsGrid.vue")['default']
@@ -47,6 +48,7 @@ interface _GlobalComponents {
     'NuxtIsland': typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyAppHeader': LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+    'LazyBitBot': LazyComponent<typeof import("../components/BitBot.vue")['default']>
     'LazyEventCard': LazyComponent<typeof import("../components/EventCard.vue")['default']>
     'LazyLinkButton': LazyComponent<typeof import("../components/LinkButton.vue")['default']>
     'LazyPastEventsGrid': LazyComponent<typeof import("../components/PastEventsGrid.vue")['default']>
@@ -87,6 +89,7 @@ declare module 'vue' {
 }
 
 export const AppHeader: typeof import("../components/AppHeader.vue")['default']
+export const BitBot: typeof import("../components/BitBot.vue")['default']
 export const EventCard: typeof import("../components/EventCard.vue")['default']
 export const LinkButton: typeof import("../components/LinkButton.vue")['default']
 export const PastEventsGrid: typeof import("../components/PastEventsGrid.vue")['default']
@@ -121,6 +124,7 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyAppHeader: LazyComponent<typeof import("../components/AppHeader.vue")['default']>
+export const LazyBitBot: LazyComponent<typeof import("../components/BitBot.vue")['default']>
 export const LazyEventCard: LazyComponent<typeof import("../components/EventCard.vue")['default']>
 export const LazyLinkButton: LazyComponent<typeof import("../components/LinkButton.vue")['default']>
 export const LazyPastEventsGrid: LazyComponent<typeof import("../components/PastEventsGrid.vue")['default']>
