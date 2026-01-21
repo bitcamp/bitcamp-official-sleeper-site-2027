@@ -195,7 +195,7 @@ const sendMessage = async () => {
   scrollMessagesToBottom();
 
   try {
-    const response = await fetch(import.meta.env.VITE_BITBOT_API_URL, {
+    const response = await fetch("/api/bitbot", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ message: text }),
