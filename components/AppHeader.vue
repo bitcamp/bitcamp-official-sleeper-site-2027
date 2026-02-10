@@ -7,21 +7,24 @@
     />
     <div class="header-content">
       <h1 class="header-title">
-        We’re out exploring, but we’ll see you in April 2026!
+        <!-- We’re out exploring, but we’ll see you in April 2026! -->
+        We're piecing together the main site, in the meantime you can register
+        for Bitcamp 2026 by clicking the button below!
       </h1>
       <div class="socials">
         <p>
-          In the meantime, follow our socials for updates and indicate your
-          interest in Bitcamp 2026 here!
+          <!-- In the meantime, follow our socials for updates and indicate your
+          interest in Bitcamp 2026 here! -->
+          Follow our socials for updates!
         </p>
         <SocialIcons />
       </div>
       <div class="header-body">
-        <LinkButton
+        <!-- <LinkButton
           text="I'm Interested!"
           link="https://forms.gle/SmhTejVeN65okvZL6"
-        />
-
+        /> -->
+        <LinkButton text="Register Now!" link="https://register.bit.camp/" />
         <!-- uncomment when organizer applications open -->
         <!-- <LinkButton
           text="Become an Organizer!"
