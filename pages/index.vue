@@ -27,11 +27,11 @@ export default {
         },
         {
           property: "og:title",
-          content: "Bitcamp 2024",
+          content: "Bitcamp 2026",
         },
         {
           property: "og:site_name",
-          content: "Bitcamp 2024",
+          content: "Bitcamp 2026",
         },
         {
           property: "og:url",
@@ -56,7 +56,7 @@ export default {
         },
         {
           property: "twitter:title",
-          content: "Bitcamp 2024",
+          content: "Bitcamp 2026",
         },
         {
           property: "twitter:description",
