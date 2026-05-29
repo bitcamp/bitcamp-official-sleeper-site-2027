@@ -19,7 +19,7 @@
             <a href="/brand.pdf">Brand Guidelines</a> |
             <a href="mailto:hello@bit.camp">Contact Us</a>
             <div class="copyright">
-              Copyright &copy; 2019 - 2025 Bitcamp. All Rights Reserved.
+              Copyright &copy; 2019 - 2026 Bitcamp. All Rights Reserved.
             </div>
           </div>
           <img class="archeologist-marshie" src="../assets/img/images/archeologist_marshie.svg" alt="archeologist-marshie">
