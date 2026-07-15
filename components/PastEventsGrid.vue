@@ -1,6 +1,6 @@
 <template>
   <div class="event-text-only">
-    <div class="event-theme">Explore The Past Eleven Years of Bitcamp</div>
+    <div class="event-theme">Explore The Past 12 Years of Bitcamp</div>
   </div>
   <div class="gradient">
     <div class="section-container">
