@@ -22,7 +22,7 @@
               Copyright &copy; 2019 - 2026 Bitcamp. All Rights Reserved.
             </div>
           </div>
-          <img class="archeologist-marshie" src="../assets/img/images/archeologist_marshie.svg" alt="archeologist-marshie">
+          <img class="space-marshie" src="../assets/img/images/space-marshie.png" alt="space marshie holding a flag">
         </div>
       </div>
     </div>
@@ -57,10 +57,9 @@ export default {
 </script>
 
 <style scoped>
-.archeologist-marshie {
-  width: 125px;
-  height: 125px;
-  transform: rotate(4.426deg);
+.space-marshie {
+  width: 150px;
+  height: auto;
 }
 
 .event-text {
@@ -87,6 +86,7 @@ export default {
   font-family: Aleo;
   font-weight: bold;
   font-size: 4rem;
+  color: #ffc08e;
 
   text-align: center;
   padding-top: 3rem;
@@ -127,9 +127,9 @@ export default {
     font-size: 2.5vw;
   }
 
-  .archeologist-marshie {
-    width: 75px;
-    height: 75px;
+  .space-marshie {
+    width: 90px;
+    height: auto;
   }
 }
 
