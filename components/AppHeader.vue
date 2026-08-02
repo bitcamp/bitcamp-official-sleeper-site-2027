@@ -1,28 +1,27 @@
 <template>
   <div class="header-container">
-    <img
-      src="../assets/img/images/bitcamp-dinos.svg"
-      width="300"
-      alt="Bitcamp"
-    />
+    <div class="logo">
+      <img
+        class="logo-ring"
+        src="../assets/img/images/logo-star-ring.svg"
+        alt=""
+        aria-hidden="true"
+      />
+      <span class="logo-text">bitcamp</span>
+    </div>
     <div class="header-content">
       <h1 class="header-title">
-        <!-- We’re out exploring, but we’ll see you in April 2026! -->
-        We're out exploring but we'll see you soon!
+        We're out exploring but we'll see you in April 2027!
       </h1>
       <div class="socials">
-        <p>
-          <!-- In the meantime, follow our socials for updates and indicate your
-          interest in Bitcamp 2026 here! -->
-          Follow our socials for updates!
-        </p>
+        <p>Follow our socials for updates!</p>
         <SocialIcons />
       </div>
       <div class="header-body">
-        <!-- <LinkButton
+        <LinkButton
           text="I'm Interested!"
           link="https://forms.gle/SmhTejVeN65okvZL6"
-        /> -->
+        />
         <!-- <LinkButton text="Register Now!" link="https://register.bit.camp/" /> -->
         <!-- uncomment when organizer applications open -->
         <!-- <LinkButton
@@ -45,7 +44,7 @@
     </div>
 
     <div class="graphics">
-      <img class="trees" src="../assets/img/images/trees.svg" alt="trees" />
+      <img class="trees" src="../assets/img/images/new-trees.svg" alt="trees" />
       <img
         class="trees-small"
         src="../assets/img/images/trees-small.svg"
@@ -78,7 +77,7 @@ export default {
   padding-bottom: 30vw;
   margin-bottom: 15vw;
   padding-top: 75px;
-  gap: 1.8vw;
+  gap: 2.8vw;
   text-align: center;
   background: linear-gradient(
     180deg,
@@ -87,11 +86,37 @@ export default {
   );
 }
 
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(420px, 78vw);
+  z-index: 5;
+}
+
+.logo-ring {
+  position: absolute;
+  width: 100%;
+  transform: rotate(-25.66deg);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.logo-text {
+  position: relative;
+  z-index: 1;
+  font-family: Aleo;
+  font-weight: 700;
+  font-size: 4.2rem;
+  color: white;
+}
+
 .header-content {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5vw;
+  gap: 2.6vw;
   font-size: 2.5rem;
   margin-top: 0px;
   z-index: 5;
@@ -103,12 +128,18 @@ export default {
   font-size: 4rem;
   padding-left: 4px;
   padding-right: 4px;
+  color: #ffdbdb;
+}
+
+.socials p {
+  color: #caccff;
 }
 
 .header-body {
   min-width: 45vw;
   width: 85vw;
   display: flex;
+  justify-content: center;
 }
 
 .button-container {
@@ -159,13 +190,22 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.8vw;
   max-width: 75vw;
 }
 
 /* mobile view - header size */
 @media (max-width: 768px) {
   .header-container {
-    gap: 5vw;
+    gap: 7vw;
+  }
+
+  .logo {
+    width: 85vw;
+  }
+
+  .logo-text {
+    font-size: 3.4rem;
   }
 
   .header-content {

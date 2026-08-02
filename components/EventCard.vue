@@ -39,10 +39,10 @@ export default {
   aspect-ratio: 3 / 2;
   margin: 20px;
   text-align: left;
-  border-radius: 35px;
+  border-radius: 40px;
   background-size: cover !important;
   /* !important so we don't have to repeat*/
-  box-shadow: 0px, 0px, 20px, 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 1;
 }
@@ -57,26 +57,28 @@ export default {
   font-family: Aleo;
   font-weight: 700;
   font-size: 4rem;
+  color: white;
 }
 
 .event-theme {
   font-family: Aleo;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 1.8rem;
+  color: white;
 }
 
 .filler {
   width: 100%;
   height: 100%;
 
-  border-radius: 35px;
-  transition: 0.4s;
+  border-radius: 40px;
+  transition: 0.3s;
 }
 
 .filler:hover {
-  background: rgba(203, 242, 255, 0.3);
-  /* #cbf2ff with 0.3 opacity */
-  transition: 0.4s;
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.02);
+  transition: 0.3s;
 }
 
 /* mobile view */

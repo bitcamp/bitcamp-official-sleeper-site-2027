@@ -25,36 +25,40 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1vw;
-  border-radius: 1rem;
-  background-color: var(--color-bitcamp);
-  transition: 0.4s;
-  width: 25%;
+  padding: 0.9vw 2.2vw;
+  border-radius: 30px;
+  background-color: #ac3828;
+  border: 4px solid #e9cb9d;
+  transition: 0.3s;
+  width: fit-content;
   margin: 0 auto;
   margin-top: 1vw;
   margin-bottom: 1vw;
 }
 
 .button:hover {
-  background-color: hsla(227, 42%, 13%, 1);
-  transition: 0.4s;
+  background-color: #c9432f;
+  transform: translateY(-2px);
+  transition: 0.3s;
 }
 
 .button-text {
-  font-size: 2.5rem;
+  font-family: Aleo;
+  font-weight: bold;
+  font-size: 1.8rem;
+  white-space: nowrap;
 }
 
 /* mobile view */
 @media (max-width: 768px) {
   .button {
     margin-top: 17px;
-    padding: 2vw;
-    width: 45%;
-
+    padding: 3vw 6vw;
+    width: fit-content;
   }
 
   .button-text {
-    font-size: 3rem;
+    font-size: 2.6rem;
   }
 }
 </style>
