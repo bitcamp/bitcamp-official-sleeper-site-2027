@@ -11,7 +11,7 @@
     </div>
     <div class="header-content">
       <h1 class="header-title">
-        We're out exploring but we'll see you in April 2027!
+        We're out exploring, but we'll see you in April 2027!
       </h1>
       <div class="socials">
         <p>Follow our socials for updates!</p>
