@@ -8,13 +8,13 @@
             <span>Home</span>
           </a>
           <h1>
-            <strong class="SupportTitle"> Help Support </strong> Bitcamp 2027!
+            <strong class="SupportTitle"> Help Support </strong> Bitcamp 2027<span style="color: black">!</span>
           </h1>
           <br />
           <p>Hello Potential Sponsor!</p>
           <p>
-            Bitcamp, hosted annually at the University of Maryland, is one of
-            the largest collegiate hackathons on the East Coast, bringing
+            Bitcamp, hosted annually at the University of Maryland, is the
+            largest collegiate hackathon on the East Coast, bringing
             together thousands of students each year. This year marks Bitcamp’s
             <b>13 year anniversary!</b> Over the past 13 years, Bitcamp has become
             a thriving hub of creativity and technical exploration, uniting over
@@ -24,17 +24,14 @@
             we’re excited to continue pushing boundaries and fostering the next
             generation of tech leaders. We can’t wait to host over
             <b>1,000</b> attendees at Bitcamp 2027 <b>in person</b> at the
-            University of Maryland from <b>April 9th to 11th</b>.
+            University of Maryland tentatively from <b>April 9th to 11th</b>.
           </p>
           <p>
             Bitcamp is a melting pot of creativity; a great place to connect
             with a diverse group of the nation’s brightest innovators. Our
             hackers are passionate about using their skills to collaboratively
             solve multi-disciplinary problems. This year, we’re excited to
-            continue offering our popular tracks in
-            <b>Machine Learning, Quantum, App Development, and Cybersecurity</b>, giving hackers the chance to deepen
-            their knowledge and tackle
-            challenges in these growing fields. All hackers are challenged to
+            continue offering hackers the chance to deepen their knowledge and tackle challenges in growing fields within computing. All hackers are challenged to
             learn new skills including project management and user- friendly
             design.
           </p>
@@ -778,7 +775,7 @@ h2 {
 
   .ContactSection div {
     width: fit-content;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .tooltips {
