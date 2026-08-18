@@ -20,7 +20,7 @@
       <div class="header-body">
         <LinkButton
           text="I'm Interested!"
-          link="https://forms.gle/SmhTejVeN65okvZL6"
+          link="https://forms.gle/DMkVhiU1yoXvWdzW8"
         />
         <!-- <LinkButton text="Register Now!" link="https://register.bit.camp/" /> -->
         <!-- uncomment when organizer applications open -->
