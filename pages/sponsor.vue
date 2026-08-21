@@ -130,7 +130,7 @@
               :description="'Mentors are a great way to represent your company or organization at Bitcamp and help our hackers with any questions they might have about their projects.'" />
             <ProspectusRow :categoryName="'Opening Session Talk'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
-              :args="['', '1 min', '2 min', '3 min', '5 min', '10 min']"
+              :args="['Name mentioned', '1 min', '2 min', '3 min', '5 min', '10 min']"
               :description="'Sponsors with this perk will get speaking time at the opening ceremony to discuss their company, their prize category, and anything else that they would like! Please keep in mind the designated time allotment for your tier when planning your presentation.'" />
             <ProspectusRow :categoryName="'Provide a Prize'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
@@ -149,7 +149,7 @@
               :args="['', '', '', '5 min', '8 min', '12 min']"
               :description="'This is a great opportunity for a company to give an inspiring and motivating talk to our hackers. This could be about an experience, something related to our hackathon’s theme, a motivational company message, or anything realistically.'" />
             <ProspectusRow :categoryName="'Sponsored Activity Slot'" :subText="'(workshop, tech talk, or mini-game)'"
-              :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']" :args="['', '', '', 'check-w', 'check-w', 'check-w']"
+              :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']" :args="['', '', '', '30 min', '45 min', '60 min']"
               :description="'Host a workshop, tech talk, or mini-game of your choice to engage with our hackers in a fun or educational setting.'" />
             <ProspectusBottomRow :categoryName="'Provide Additional Prize'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']" :args="['', '', '', '', '', 'check-w']"
@@ -167,7 +167,7 @@
               :description="'Sponsors have their own in-person booth in our event location. The booth is your “home base” for the event, from which you can post or distribute marketing materials, interact with hackers, and make your presence felt at Bitcamp! '" />
             <ProspectusRow :categoryName="'Access to Hacker Contact Information'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']" :args="[
-                '',
+                'check-b',
                 'check-b',
                 'check-w',
                 'check-w',
@@ -185,7 +185,7 @@
               :description="'With this perk, we provide a database of all of our registrants’ resumes to our sponsors following the event (before if we are able to do so logistically). This will ideally be in a Google Drive format but can be changed due to certain company restrictions.'" />
             <ProspectusRow :categoryName="'Private Interview Rooms'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
-              :args="['', '', '', '', 'check-w', 'check-w']"
+              :args="['', '', '', '', '', 'check-w']"
               :description="'Conduct interviews with prospective candidates in private rooms during the event.'" />
             <ProspectusRow :categoryName="'Bootcamp Sponsorship Fair'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
@@ -248,7 +248,7 @@
               :description="'Giga-level sponsors are eligible to opt in for a 2-minute custom marketing video for $350. This perk is included for the Tera and Peta-level sponsors. It is the perfect chance for your company to get exposure among past and prospective hackers! Bitcamp social media accounts will promote your company using the custom marketing video, and you will have access to the video for your own use.'" />
             <ProspectusBottomRow :categoryName="'Sponsored Activity Slot'"
               :tierNames="['Byte', 'Kilo', 'Mega', 'Giga', 'Tera', 'Peta']"
-              :args="['', 'Add-on ($1,500)', 'Add-on ($1,500)', '', '', '']"
+              :args="['', 'Add-on ($1,500) (30 min)', 'Add-on ($1,500) (30 min)', '', '', '']"
               :description="'Kilo and Mega-tier sponsors are eligible to opt in for a sponsored activity slot for $1,500. A workshop, tech talk, or mini-game is an excellent way to interact with our hackers on a topic or activity of your choice.'" />
 
             <div class="Rtable-cell Rtable-cell-blank"></div>

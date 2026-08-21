@@ -30,9 +30,9 @@
                 </span>
             </span>
             <span v-else-if="typeof arg === 'string' && arg.includes('$')">
-                {{ arg.split(' ')[0] }} {{ arg.split(' ')[1] }}
+                {{ arg.split(/\s+/).slice(0, 2).join(' ') }}
                 <br>
-                {{ arg.split(' ')[2] }}
+                {{ arg.split(/\s+/).slice(2).join(' ') }}
             </span>
             <span v-else>
                 {{ arg }}
